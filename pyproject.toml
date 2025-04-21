@@ -5,5 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "ptrlib>=2.5.0",
     "pwntools>=4.14.1",
 ]
