@@ -55,8 +55,16 @@ void echo() {
 }
 
 int main() {
-  setbuf(stdin, NULL);
-  setbuf(stdout, NULL);
-  echo();
+	int size1 = abs(-2147483647);
+	printf("abs(-2147483647): %d\n", size1);
+	int size2 = abs(-2147483648);
+	printf("abs(-2147483648): %d\n", size2);
+	int size3 = abs(-2147483649);
+	printf("abs(-2147483649): %d\n", size3);
+	int size4 = abs(-2147483650);
+	printf("abs(-2147483650): %d\n", size4);
+  // setbuf(stdin, NULL);
+  // setbuf(stdout, NULL);
+  // echo();
   return 0;
 }
